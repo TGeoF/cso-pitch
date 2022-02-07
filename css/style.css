@@ -89,6 +89,7 @@ select {
         url("/webfonts/MadrasExtraLight.ttf.eot?#iefix") format("embedded-opentype");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .grid-container {
@@ -105,7 +106,6 @@ select {
 
 .logo * {
     display: inline-block;
-
 }
 
 .logo-c {
@@ -186,7 +186,8 @@ nav a {
 }
 
 nav a:hover {
-    font-weight: 700;
+    font-weight: 600;
+    text-shadow: 0 0 3px darkgray;
 }
 
 h1, h2, h3, h4, h5 {
@@ -247,6 +248,10 @@ footer {
 
     .logo {
         margin: auto;
+    }
+
+    nav {
+        padding: 0;
     }
 
     nav ul {
